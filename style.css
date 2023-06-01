@@ -27,20 +27,22 @@ body {
     rgba(156, 207, 207, 0.94) 82%,
     rgba(158, 217, 218, 0.94) 100%
   );
-}
-.logo-img {
-  width: 3.5rem;
-}
-.primery-heading {
   position: relative;
   padding-top: 7rem;
   padding-left: 8rem;
 }
+.logo-img {
+  width: 3.5rem;
+}
+
 .sub {
   display: inline-block;
   position: absolute;
-  top: 50%;
+  top: 8%;
   left: 7.5%;
   transform: translate(5%, 40%);
   font-size: 2rem;
+}
+
+.main-content {
 }
