@@ -53,12 +53,12 @@ body {
   font-size: 2rem;
 }
 
-.main-content {
+.heading-primery {
   font-size: 9rem;
   text-transform: uppercase;
   margin-bottom: 10.5rem;
 }
-.main-content-sub {
+.heading-sub {
   display: block;
 }
 
@@ -91,4 +91,26 @@ body {
   text-align: center;
   font-size: 4rem;
   color: #555;
+}
+
+.description {
+  background-color: #161f42;
+  color: #a4afdb;
+}
+.main-descr {
+  margin-top: ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hr-style {
+  border: 2px solid #5062ad;
+}
+.heading-secondary {
+  line-height: 7rem;
+  font-size: 7rem;
+  text-transform: uppercase;
+  margin-bottom: 10.5rem;
+}
+.decrip-text {
+  font-size: 2.4rem;
 }
