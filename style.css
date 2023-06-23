@@ -31,6 +31,14 @@ body {
   );
   position: relative;
   color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.primery-heading-logo {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  justify-items: start;
+  align-items: center;
 }
 .logo-img {
   width: 3.5rem;
@@ -38,10 +46,10 @@ body {
 
 .sub {
   display: inline-block;
-  position: absolute;
+  /* position: absolute;
   top: 8%;
   left: 7.5%;
-  transform: translate(5%, 40%);
+  transform: translate(5%, 40%); */
   font-size: 2rem;
 }
 
@@ -51,4 +59,29 @@ body {
 }
 .main-content-sub {
   display: block;
+}
+
+.main-img {
+  width: 75%;
+}
+.downloads {
+  font-size: 1.6rem;
+  border-radius: 10px;
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  /* color: #444; */
+}
+.side-by-side {
+  background-color: #fff;
+}
+.link-download:visited,
+.link-download:link {
+  text-decoration: none;
+  color: #444;
+}
+.icon {
+  font-size: 3rem;
+  color: #333;
 }
