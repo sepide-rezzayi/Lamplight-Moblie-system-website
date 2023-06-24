@@ -93,16 +93,18 @@ body {
   color: #555;
 }
 
+/* description section */
 .description {
+  padding: 8rem;
   background-color: #161f42;
   color: #a4afdb;
+  height: 100vh;
 }
 .main-descr {
-  margin-top: ;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.hr-style {
+.hr-style-1 {
   border: 2px solid #5062ad;
 }
 .heading-secondary {
@@ -112,5 +114,19 @@ body {
   margin-bottom: 10.5rem;
 }
 .decrip-text {
-  font-size: 2.4rem;
+  font-size: 2rem;
+}
+.desc-img {
+  width: 55%;
+}
+/* FEATURED SECTION */
+
+.features {
+  padding: 8rem;
+  background-color: #b7beeb;
+  height: 100vh;
+}
+
+.hr-style-2 {
+  border: 2px solid #161f42;
 }
