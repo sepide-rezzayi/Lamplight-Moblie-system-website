@@ -121,6 +121,7 @@ body {
   font-size: 7rem;
   text-transform: uppercase;
   margin-bottom: 10.5rem;
+
 }
 
 .decrip-text {
@@ -230,3 +231,30 @@ body {
 
 
 /* contact us */
+.contact-us {
+  padding: 4.8rem;
+  color: #a4afdb;
+  background-color: #081239;
+  font-size: 2rem;
+  height: 100vh;
+}
+
+.heading-secondary-cotact {
+  line-height: 7rem;
+  font-size: 7rem;
+  text-transform: uppercase;
+  margin-bottom: 10.5rem;
+  display: inline;
+
+}
+
+.contact-info {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.heading-sub-info {
+  display: inline;
+  margin-right: 2.4rems;
+}
