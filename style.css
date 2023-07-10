@@ -239,6 +239,13 @@ body {
   height: 100vh;
 }
 
+.contact-info-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+
 .heading-secondary-cotact {
   line-height: 7rem;
   font-size: 7rem;
@@ -251,10 +258,22 @@ body {
 .contact-info {
   font-size: 1.4rem;
   text-transform: uppercase;
-  display: inline;
+  display: flex;
+
 }
 
 .heading-sub-info {
   display: inline;
   margin-right: 2.4rems;
+}
+
+.media-icon {
+  width: 4.8rem;
+  margin-right: 1.6rem;
+
+}
+
+.footer-img {
+  width: 100%;
+  ;
 }
