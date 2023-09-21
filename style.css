@@ -101,7 +101,7 @@ body {
   color: #555;
 }
 
-/* description section */
+/*! description section */
 .description {
   padding: 8rem;
   background-color: #161f42;
@@ -201,7 +201,7 @@ body {
   margin-bottom: 0;
 }
 
-/* ABOUT SECTION */
+/*! ABOUT SECTION */
 
 .about-section {
   background-color: #f5f6fc;
@@ -225,7 +225,7 @@ body {
 
 .text-about section {
   display: inline-block;
-  margin-bottom: 25rem;
+  margin-bottom: 24rem;
 }
 
 /* contact us */
