@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  padding: 1.2rem;
   font-family: sans-serif;
   font-weight: 400;
 }
@@ -19,8 +18,6 @@ body {
 /**************************************************/
 
 .color-background {
-  padding-top: 7rem;
-  padding-left: 8rem;
   height: 100vh;
   background: rgb(255, 200, 255);
   background: linear-gradient(
@@ -104,7 +101,6 @@ body {
 
 /*! description section */
 .description {
-  padding: 8rem;
   background-color: #161f42;
   color: #a4afdb;
   height: 100vh;
@@ -137,7 +133,6 @@ body {
 /* FEATURED SECTION */
 
 .features {
-  padding: 8rem;
   background-color: #f5f6fc;
   height: 100vh;
   color: #161f42;
@@ -207,7 +202,7 @@ body {
 .about-section {
   background-color: #f5f6fc;
   color: #161f42;
-  padding: 4.8rem;
+
   height: 100vh;
 }
 
@@ -229,13 +224,12 @@ body {
   margin-bottom: 24rem;
 }
 
-/* contact us */
+/* ?contact us */
 .hr-style-3 {
   border: 2px solid #a4afdb;
 }
 
 .contact-us {
-  padding: 4.8rem;
   color: #a4afdb;
   background-color: #081239;
   font-size: 2rem;
@@ -252,7 +246,7 @@ body {
   line-height: 7rem;
   font-size: 7rem;
   text-transform: uppercase;
-  margin-bottom: 10.5rem;
+  margin-bottom: 10rem;
   display: inline;
 }
 
@@ -275,5 +269,5 @@ body {
 
 .footer-img {
   width: 100%;
-  margin-top: 9.4rem;
+  margin-top: 8.5rem;
 }
