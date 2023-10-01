@@ -148,11 +148,14 @@
   }
 
   /* description */
+  .description {
+    height: auto;
+  }
   .description .heading-sub {
     text-align: center;
   }
   .decrip-text {
-    font-size: 2.2rem;
+    font-size: 3rem;
     text-align: center;
   }
   .description .heading-secondary {
@@ -176,11 +179,62 @@
     grid-template-columns: 1fr;
   }
   .text-feat {
-    font-size: 2.2rem;
+    font-size: 3rem;
   }
   .img-feat {
     max-width: 20%;
   }
 
   /* ? review section */
+  .review {
+    height: auto;
+  }
+  .review .heading-secondary {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  .review-text {
+    font-size: 3rem;
+  }
+  .review-section {
+    grid-template-columns: 1fr;
+  }
+  /* ? about section */
+  .about-section {
+    height: auto;
+  }
+  .about-section .heading-secondary {
+    text-align: center;
+  }
+  .about-content section {
+    margin-bottom: 1rem;
+  }
+  .about-content .heading-secondary {
+    margin-bottom: 4rem;
+  }
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+  .img-about {
+    display: none;
+  }
+  .about-pra {
+    font-size: 3rem;
+  }
+
+  .contact-us {
+    height: auto;
+  }
+  .contact-info-section {
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
+  }
+  .heading-sub-info span {
+    display: inline-block;
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .footer-img {
+    display: none;
+  }
 }
