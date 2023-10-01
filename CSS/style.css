@@ -5,6 +5,7 @@
 }
 
 html {
+  /* 1rem = 10px */
   font-size: 62.5%;
 }
 
@@ -28,10 +29,9 @@ body {
     rgba(156, 207, 207, 0.94) 82%,
     rgba(158, 217, 218, 0.94) 100%
   );
-  position: relative;
   color: #fff;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
 }
 
 .primery-heading-logo {
@@ -47,17 +47,14 @@ body {
 
 .sub {
   display: inline-block;
-  /* position: absolute;
-  top: 8%;
-  left: 7.5%;
-  transform: translate(5%, 40%); */
+
   font-size: 2rem;
 }
 
 .heading-primery {
-  font-size: 9rem;
+  font-size: 8rem;
   text-transform: uppercase;
-  margin-bottom: 10.5rem;
+  margin-bottom: 7rem;
 }
 
 .heading-sub {
@@ -65,9 +62,12 @@ body {
 }
 
 .main-img {
-  width: 75%;
+  width: 60%;
 }
-
+.imgs {
+  margin: 0 auto;
+  /* margin-left: 10rem; */
+}
 .downloads {
   display: flex;
 
@@ -202,7 +202,6 @@ body {
 .about-section {
   background-color: #f5f6fc;
   color: #161f42;
-
   height: 100vh;
 }
 
@@ -221,7 +220,7 @@ body {
 
 .text-about section {
   display: inline-block;
-  margin-bottom: 24rem;
+  margin-bottom: 17rem;
 }
 
 /* ?contact us */
