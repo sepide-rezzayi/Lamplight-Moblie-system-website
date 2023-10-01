@@ -43,14 +43,87 @@
   }
 }
 
-/* Small devices such as large phones (640px and up) */
-/* @media only screen and (min-width: 40em) {...} */
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
 
-/* Medium devices such as tablets (768px and up) */
-/* @media only screen and (min-width: 48em) {...} */
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+  .primery-heading-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .logo-img {
+    width: 2.5rem;
+  }
+  .sub {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  .main-img {
+    max-width: 100%;
+  }
+  .contact-us {
+    height: 75vh;
+  }
+  .contact-info-section {
+    margin-bottom: 0;
+  }
+  .heading-secondary-cotact {
+    margin-right: 4rem;
+  }
+  .footer-img {
+    margin-top: 4.1rem;
+  }
+}
 
-/* Large devices such as laptops (1024px and up) */
-/* @media only screen and (min-width: 64em) {...} */
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
 
-/* Largest devices such as desktops (1280px and up) */
-/* @media only screen and (min-width: 80em) {...} */
+@media (max-width: 44em) {
+  html {
+    font-size: 31.25%;
+  }
+  .color-background,
+  .description,
+  .review,
+  .about-section,
+  .contact-us {
+    height: 55vh;
+  }
+  .main-img {
+    max-width: 85%;
+  }
+  .desc-img {
+    margin-top: -5rem;
+  }
+  .features {
+    height: 60vh;
+  }
+  .heading-secondary {
+    margin-bottom: 15rem;
+  }
+  .row-section {
+    margin-top: 15 rem;
+  }
+
+  /* review section */
+  .review-text-sub {
+    margin-bottom: 4rem;
+  }
+  .footer-img {
+    margin-top: 6.5rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+}
