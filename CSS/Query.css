@@ -164,4 +164,23 @@
   .desc-img {
     display: none;
   }
+
+  /* ? features */
+  .features {
+    height: auto;
+  }
+  .features .heading-sub {
+    text-align: center;
+  }
+  .row-section {
+    grid-template-columns: 1fr;
+  }
+  .text-feat {
+    font-size: 2.2rem;
+  }
+  .img-feat {
+    max-width: 20%;
+  }
+
+  /* ? review section */
 }
