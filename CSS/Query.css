@@ -148,4 +148,20 @@
   }
 
   /* description */
+  .description .heading-sub {
+    text-align: center;
+  }
+  .decrip-text {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .description .heading-secondary {
+    margin-bottom: 10rem;
+  }
+  .main-descr {
+    display: block;
+  }
+  .desc-img {
+    display: none;
+  }
 }
