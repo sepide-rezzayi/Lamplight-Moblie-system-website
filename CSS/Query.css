@@ -126,4 +126,26 @@
 /**************************/
 
 @media (max-width: 34em) {
+  html {
+    font-size: 31.25%;
+  }
+  .color-background {
+    grid-template-columns: 1fr 1fr;
+  }
+  .heading-primery {
+    text-align: left;
+    font-size: 5rem;
+  }
+  .main-img {
+    max-width: 100%;
+  }
+  .side-by-side {
+    margin-right: 1rem;
+    padding: 1rem;
+  }
+  .icon {
+    font-size: 3rem;
+  }
+
+  /* description */
 }
