@@ -1,4 +1,4 @@
-@media (max-width: 2560px) {
+@media (max-width: 84em) {
   html {
     font-size: 100%;
   }
@@ -14,25 +14,43 @@
   }
 }
 
-@media (max-width: 1440px) {
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 75em) {
   html {
-    font-size: 75%;
+    font-size: 56.25%;
   }
-  .features,
-  .review,
-  .about-content,
-  .contact-us,
-  .description,
-  .color-background {
-    height: 80vh;
-  }
+
   .main-img {
-    max-width: 110%;
+    max-width: 85%;
   }
   .review-text-sub {
     margin-bottom: 5.5rem;
   }
+  .features .heading-secondary,
+  .about-section .heading-secondary {
+    margin-bottom: 8rem;
+  }
   .img-about {
     width: 110%;
   }
+  .contact-info-section {
+    margin-bottom: 0rem;
+  }
+  .footer-img {
+    margin-top: 9.7rem;
+  }
 }
+
+/* Small devices such as large phones (640px and up) */
+/* @media only screen and (min-width: 40em) {...} */
+
+/* Medium devices such as tablets (768px and up) */
+/* @media only screen and (min-width: 48em) {...} */
+
+/* Large devices such as laptops (1024px and up) */
+/* @media only screen and (min-width: 64em) {...} */
+
+/* Largest devices such as desktops (1280px and up) */
+/* @media only screen and (min-width: 80em) {...} */
